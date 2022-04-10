@@ -1,0 +1,118 @@
+body{
+    height: 100%; width: 100%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+.cinema-body{
+    background: #fd9ca3;
+    background: url("../img/pastel-madera.jpg");
+    background-position: center;
+    background-size: 100%;
+}
+
+.cabecera{
+    background: #fcb9b1;
+    min-height: 64px;
+    position: fixed;
+    top: 0;
+}
+
+.container{
+    margin-top: 64px;
+}
+
+.jumbotron{
+    background: url("../img/Arte-Contemporaneo.jpg");
+    background-position: center;    
+    background-size: 100%;
+    min-height: 500px;
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+.titulo-cartelera{
+    height: 45px;
+    background: #b6e9d6;
+}
+
+.movies-row{
+    background: #ffdbc1;
+    min-height: 350px;
+    padding-left: 15px; padding-right: 15px;
+    opacity: 0.8;
+}
+
+.movies-column{
+    margin-top: 5px;
+    background-color: #c7ceea;
+    min-height: 330px;
+    border: 4px dashed #fff;
+}
+
+.left-column{
+    border-right: 4px dashed #fff;
+}
+    
+.logo-img{
+    width: 60px;
+}
+
+.welcome-title{
+    color: white;
+    margin: 10px;
+}
+
+.jumbotron-img{
+    margin: 20px;
+}
+
+.jumbotron-text{
+    font-size: 16px;
+    color: white;
+    margin: 22px;
+}
+
+.redes-sociales{
+    margin: 20px;
+}
+
+.img-social{
+    width: 40px;
+    height: 40px;
+    margin: 15px;
+}
+
+.titulo-text{
+    font-size: 18px;
+    color: white;
+    padding: 10px;
+}
+
+.movie-title{
+    color: #e2f0cb;
+}
+
+.img-movies{
+    height: 260px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin-top: 22px;
+    margin-bottom: 22px; 
+    max-width: 10vw;
+}
+
+@media (max-width: 770px){
+    .right-column{
+        display: none;
+    }
+    .movies-row{
+        min-height: 250px;
+    }
+    .movies-column{
+        min-height: 230px;
+    }
+    .jumbotron{
+        min-height: 350px;
+    }
+}
+
